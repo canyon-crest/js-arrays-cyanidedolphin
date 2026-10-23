@@ -6,11 +6,12 @@ let numbers = []
 let yourString = ""
 let sum = 0
 let count = 0
-let largest = numbers[0]
 
 for (let i = 0; i < 5; i++) {
     numbers.push(parseFloat(prompt(`Enter Number ${i+1}`)))
 }
+
+let largest = numbers[0]
 
 for (let i = 0; i < numbers.length; i++) {
     yourString += numbers[i]
